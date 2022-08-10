@@ -17,7 +17,7 @@ function validate(){
 
     if(user == storedMail && pass == storedPw){
         alert('You are logged in.');
-        window.location.href = 'index1.html'
+        window.location.href = 'index.html'
     }else{
         alert('Error on login');
     }
